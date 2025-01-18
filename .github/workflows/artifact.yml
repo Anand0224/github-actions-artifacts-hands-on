@@ -32,3 +32,6 @@ jobs:
         path: ./artifacts
     - name: Display content of the text file
       run: cat ./artifacts/hello.txt
+    
+    - name: display variable
+      run: echo $ACCESS_ID
